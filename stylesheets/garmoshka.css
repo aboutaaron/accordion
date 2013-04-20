@@ -30,7 +30,6 @@ body {
   background: -webkit-linear-gradient(#d0d0d0, #fdfdfd);
   background: -moz-linear-gradient(#d0d0d0, #fdfdfd);
   background: -o-linear-gradient(#d0d0d0, #fdfdfd);
-  background: -ms-linear-gradient(#d0d0d0, #fdfdfd);
   background: linear-gradient(#d0d0d0, #fdfdfd);
   width: 30px;
   height: 30px;
@@ -43,7 +42,6 @@ body {
   background: -webkit-linear-gradient(#aaaaaa, #d7d7d7);
   background: -moz-linear-gradient(#aaaaaa, #d7d7d7);
   background: -o-linear-gradient(#aaaaaa, #d7d7d7);
-  background: -ms-linear-gradient(#aaaaaa, #d7d7d7);
   background: linear-gradient(#aaaaaa, #d7d7d7);
   -webkit-box-shadow: 0 0 2px 2px #d9d9d9 inset, -1px 0 4px 2px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0 0 2px 2px #d9d9d9 inset, -1px 0 4px 2px rgba(0, 0, 0, 0.75);
@@ -60,7 +58,6 @@ body {
   background: -webkit-linear-gradient(#232221, #333333 75%, #1e1d1f);
   background: -moz-linear-gradient(#232221, #333333 75%, #1e1d1f);
   background: -o-linear-gradient(#232221, #333333 75%, #1e1d1f);
-  background: -ms-linear-gradient(#232221, #333333 75%, #1e1d1f);
   background: linear-gradient(#232221, #333333 75%, #1e1d1f);
 }
 /* line 54, ../sass/garmoshka.sass */
@@ -235,6 +232,9 @@ body {
   top: 20px;
   bottom: 20px;
   -webkit-perspective: 500;
+  -moz-perspective: 500;
+  -ms-perspective: 500;
+  -o-perspective: 500;
   perspective: 500;
 }
 /* line 138, ../sass/garmoshka.sass */
@@ -259,7 +259,6 @@ body {
   background: -webkit-linear-gradient(left, #120812, #686d68, #969996, #c6d1c6, #686768);
   background: -moz-linear-gradient(left, #120812, #686d68, #969996, #c6d1c6, #686768);
   background: -o-linear-gradient(left, #120812, #686d68, #969996, #c6d1c6, #686768);
-  background: -ms-linear-gradient(left, #120812, #686d68, #969996, #c6d1c6, #686768);
   background: linear-gradient(left, #120812, #686d68, #969996, #c6d1c6, #686768);
 }
 /* line 150, ../sass/garmoshka.sass */
@@ -268,7 +267,6 @@ body {
   background: -webkit-linear-gradient(left, #495749, #260f26, #dce8dc, #f5fff5, #241024), -webkit-linear-gradient(left, #495749, #260f26, #dce8dc, #f5fff5, #241024), -webkit-linear-gradient(left, #131013, #363036, #757475, #adb6ad, #281e28), -webkit-linear-gradient(left, #131013, #363036, #757475, #adb6ad, #281e28);
   background: -moz-linear-gradient(left, #495749, #260f26, #dce8dc, #f5fff5, #241024), -moz-linear-gradient(left, #495749, #260f26, #dce8dc, #f5fff5, #241024), -moz-linear-gradient(left, #131013, #363036, #757475, #adb6ad, #281e28), -moz-linear-gradient(left, #131013, #363036, #757475, #adb6ad, #281e28);
   background: -o-linear-gradient(left, #495749, #260f26, #dce8dc, #f5fff5, #241024), -o-linear-gradient(left, #495749, #260f26, #dce8dc, #f5fff5, #241024), -o-linear-gradient(left, #131013, #363036, #757475, #adb6ad, #281e28), -o-linear-gradient(left, #131013, #363036, #757475, #adb6ad, #281e28);
-  background: -ms-linear-gradient(left, #495749, #260f26, #dce8dc, #f5fff5, #241024), -ms-linear-gradient(left, #495749, #260f26, #dce8dc, #f5fff5, #241024), -ms-linear-gradient(left, #131013, #363036, #757475, #adb6ad, #281e28), -ms-linear-gradient(left, #131013, #363036, #757475, #adb6ad, #281e28);
   background: linear-gradient(left, #495749, #260f26, #dce8dc, #f5fff5, #241024), linear-gradient(left, #495749, #260f26, #dce8dc, #f5fff5, #241024), linear-gradient(left, #131013, #363036, #757475, #adb6ad, #281e28), linear-gradient(left, #131013, #363036, #757475, #adb6ad, #281e28);
   background-position: 0 0, 0 100%, 0 0, 0 100%;
   -webkit-background-size: 100% 15px, 100% 15px, 100% 17px, 100% 17px;
@@ -292,11 +290,10 @@ body {
 /* line 166, ../sass/garmoshka.sass */
 .garmoshka .bellows .slice .l {
   left: 2%;
-  background: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #4f4b4f), color-stop(11.111%, #4f4f4f), color-stop(22.222%, #4b4b4b), color-stop(33.333%, #454545), color-stop(44.444%, #404040), color-stop(55.556%, #3a3a3a), color-stop(66.667%, #353435), color-stop(77.778%, #363a36), color-stop(88.889%, #1f201f), color-stop(100%, #000000));
+  background: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #4f4b4f), color-stop(11.11111%, #4f4f4f), color-stop(22.22222%, #4b4b4b), color-stop(33.33333%, #454545), color-stop(44.44444%, #404040), color-stop(55.55556%, #3a3a3a), color-stop(66.66667%, #353435), color-stop(77.77778%, #363a36), color-stop(88.88889%, #1f201f), color-stop(100%, #000000));
   background: -webkit-linear-gradient(left, #4f4b4f, #4f4f4f, #4b4b4b, #454545, #404040, #3a3a3a, #353435, #363a36, #1f201f, #000000);
   background: -moz-linear-gradient(left, #4f4b4f, #4f4f4f, #4b4b4b, #454545, #404040, #3a3a3a, #353435, #363a36, #1f201f, #000000);
   background: -o-linear-gradient(left, #4f4b4f, #4f4f4f, #4b4b4b, #454545, #404040, #3a3a3a, #353435, #363a36, #1f201f, #000000);
-  background: -ms-linear-gradient(left, #4f4b4f, #4f4f4f, #4b4b4b, #454545, #404040, #3a3a3a, #353435, #363a36, #1f201f, #000000);
   background: linear-gradient(left, #4f4b4f, #4f4f4f, #4b4b4b, #454545, #404040, #3a3a3a, #353435, #363a36, #1f201f, #000000);
   -webkit-transform-origin: 0 50%;
   -moz-transform-origin: 0 50%;
@@ -307,11 +304,10 @@ body {
 /* line 170, ../sass/garmoshka.sass */
 .garmoshka .bellows .slice .r {
   left: 48%;
-  background: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #000000), color-stop(11.111%, #000000), color-stop(22.222%, #040404), color-stop(33.333%, #090909), color-stop(44.444%, #0e0e0e), color-stop(55.556%, #141414), color-stop(66.667%, #1a1a1a), color-stop(77.778%, #202420), color-stop(88.889%, #151414), color-stop(100%, #0d030d));
+  background: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #000000), color-stop(11.11111%, #000000), color-stop(22.22222%, #040404), color-stop(33.33333%, #090909), color-stop(44.44444%, #0e0e0e), color-stop(55.55556%, #141414), color-stop(66.66667%, #1a1a1a), color-stop(77.77778%, #202420), color-stop(88.88889%, #151414), color-stop(100%, #0d030d));
   background: -webkit-linear-gradient(left, #000000, #000000, #040404, #090909, #0e0e0e, #141414, #1a1a1a, #202420, #151414, #0d030d);
   background: -moz-linear-gradient(left, #000000, #000000, #040404, #090909, #0e0e0e, #141414, #1a1a1a, #202420, #151414, #0d030d);
   background: -o-linear-gradient(left, #000000, #000000, #040404, #090909, #0e0e0e, #141414, #1a1a1a, #202420, #151414, #0d030d);
-  background: -ms-linear-gradient(left, #000000, #000000, #040404, #090909, #0e0e0e, #141414, #1a1a1a, #202420, #151414, #0d030d);
   background: linear-gradient(left, #000000, #000000, #040404, #090909, #0e0e0e, #141414, #1a1a1a, #202420, #151414, #0d030d);
   -webkit-transform-origin: 100% 50%;
   -moz-transform-origin: 100% 50%;
@@ -410,7 +406,6 @@ body {
   background: -webkit-linear-gradient(#232221, #333333 75%, #1e1d1f);
   background: -moz-linear-gradient(#232221, #333333 75%, #1e1d1f);
   background: -o-linear-gradient(#232221, #333333 75%, #1e1d1f);
-  background: -ms-linear-gradient(#232221, #333333 75%, #1e1d1f);
   background: linear-gradient(#232221, #333333 75%, #1e1d1f);
 }
 /* line 185, ../sass/garmoshka.sass */
@@ -440,10 +435,11 @@ body {
   letter-spacing: 5px;
   text-align: center;
   font-size: 32px;
+  font-family: "SilkscreenNormal", cursive;
   color: #111111;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.25);
 }
-/* line 206, ../sass/garmoshka.sass */
+/* line 207, ../sass/garmoshka.sass */
 .garmoshka .chords .buttons {
   position: absolute;
   top: 40px;
@@ -456,16 +452,12 @@ body {
   box-shadow: 2px 0 2px 0 rgba(0, 0, 0, 0.25) inset;
   -moz-border-radius-topleft: 30px;
   -webkit-border-top-left-radius: 30px;
-  -ms-border-top-left-radius: 30px;
-  -o-border-top-left-radius: 30px;
   border-top-left-radius: 30px;
   -moz-border-radius-bottomleft: 30px;
   -webkit-border-bottom-left-radius: 30px;
-  -ms-border-bottom-left-radius: 30px;
-  -o-border-bottom-left-radius: 30px;
   border-bottom-left-radius: 30px;
 }
-/* line 215, ../sass/garmoshka.sass */
+/* line 216, ../sass/garmoshka.sass */
 .garmoshka .chords .buttons button {
   position: absolute;
   background: none;
@@ -477,88 +469,88 @@ body {
   height: 22px;
   outline: none;
 }
-/* line 226, ../sass/garmoshka.sass */
+/* line 227, ../sass/garmoshka.sass */
 .garmoshka .chords .buttons button:nth-child(1) {
   top: 0px;
 }
-/* line 226, ../sass/garmoshka.sass */
+/* line 227, ../sass/garmoshka.sass */
 .garmoshka .chords .buttons button:nth-child(2) {
   top: 38.5px;
 }
-/* line 226, ../sass/garmoshka.sass */
+/* line 227, ../sass/garmoshka.sass */
 .garmoshka .chords .buttons button:nth-child(3) {
   top: 77px;
 }
-/* line 226, ../sass/garmoshka.sass */
+/* line 227, ../sass/garmoshka.sass */
 .garmoshka .chords .buttons button:nth-child(4) {
   top: 115.5px;
 }
-/* line 226, ../sass/garmoshka.sass */
+/* line 227, ../sass/garmoshka.sass */
 .garmoshka .chords .buttons button:nth-child(5) {
   top: 154px;
 }
-/* line 226, ../sass/garmoshka.sass */
+/* line 227, ../sass/garmoshka.sass */
 .garmoshka .chords .buttons button:nth-child(6) {
   top: 192.5px;
 }
-/* line 226, ../sass/garmoshka.sass */
+/* line 227, ../sass/garmoshka.sass */
 .garmoshka .chords .buttons button:nth-child(7) {
   top: 231px;
 }
-/* line 226, ../sass/garmoshka.sass */
+/* line 227, ../sass/garmoshka.sass */
 .garmoshka .chords .buttons button:nth-child(8) {
   top: 269.5px;
 }
-/* line 226, ../sass/garmoshka.sass */
+/* line 227, ../sass/garmoshka.sass */
 .garmoshka .chords .buttons button:nth-child(9) {
   top: 308px;
 }
-/* line 226, ../sass/garmoshka.sass */
+/* line 227, ../sass/garmoshka.sass */
 .garmoshka .chords .buttons button:nth-child(10) {
   top: 346.5px;
 }
-/* line 226, ../sass/garmoshka.sass */
+/* line 227, ../sass/garmoshka.sass */
 .garmoshka .chords .buttons button:nth-child(11) {
   top: 385px;
 }
-/* line 226, ../sass/garmoshka.sass */
+/* line 227, ../sass/garmoshka.sass */
 .garmoshka .chords .buttons button:nth-child(12) {
   top: 423.5px;
 }
-/* line 226, ../sass/garmoshka.sass */
+/* line 227, ../sass/garmoshka.sass */
 .garmoshka .chords .buttons button:nth-child(13) {
   top: 462px;
 }
-/* line 228, ../sass/garmoshka.sass */
+/* line 229, ../sass/garmoshka.sass */
 .garmoshka .chords .buttons button:after {
   content: "";
   width: 22px;
   height: 22px;
   position: absolute;
 }
-/* line 235, ../sass/garmoshka.sass */
+/* line 236, ../sass/garmoshka.sass */
 .garmoshka .chords .buttons button:active:after, .garmoshka .chords .buttons button.active:after {
   -webkit-box-shadow: 0 0 2px 2px #d9d9d9 inset, -1px 0 2px 1px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0 0 2px 2px #d9d9d9 inset, -1px 0 2px 1px rgba(0, 0, 0, 0.75);
   box-shadow: 0 0 2px 2px #d9d9d9 inset, -1px 0 2px 1px rgba(0, 0, 0, 0.75);
 }
-/* line 237, ../sass/garmoshka.sass */
+/* line 238, ../sass/garmoshka.sass */
 .garmoshka .chords .buttons .line-1, .garmoshka .chords .buttons .line-2, .garmoshka .chords .buttons .line-3 {
   top: 50%;
   margin-top: -154px;
   position: absolute;
   left: 2px;
 }
-/* line 243, ../sass/garmoshka.sass */
+/* line 244, ../sass/garmoshka.sass */
 .garmoshka .chords .buttons .line-1 button {
   left: 22px;
 }
-/* line 246, ../sass/garmoshka.sass */
+/* line 247, ../sass/garmoshka.sass */
 .garmoshka .chords .buttons .line-2 button {
   left: 66px;
-  margin-top: 14.667px;
+  margin-top: 14.66667px;
 }
-/* line 250, ../sass/garmoshka.sass */
+/* line 251, ../sass/garmoshka.sass */
 .garmoshka .chords .buttons .line-3 button {
   left: 110px;
   margin-top: 0;
