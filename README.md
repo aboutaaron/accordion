@@ -1,7 +1,8 @@
-Garmoshka
+Garmoshka of DOOM
 =========
 
-Move the bellows:<br>
-http://artpolikarpov.github.com/garmoshka/
+Slip like Freudian<br>
+Your first and last step to playin' yourself like accordion<br>
+http://aboutaaron.com/garmoshka/
 
 [:||||||||||||:]
