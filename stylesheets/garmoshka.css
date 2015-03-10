@@ -561,3 +561,31 @@ body {
   left: 110px;
   margin-top: 0;
 }
+
+footer {
+  background-color: #222;
+  opacity: 0.8;
+  position: absolute;
+  z-index: 1040;
+  bottom: 0;
+  right: 0;
+
+}
+
+blockquote p {
+  font-weight: bold;
+  position: relative;
+  width: 75%;
+  font-size: 1rem;
+  font-family: 'SilkscreenExpandedNormal', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: white;
+}
+
+#about {
+  color: white;
+  text-align: center;
+}
+
+#about a {
+  color: #FE5A37;
+}
